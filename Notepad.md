@@ -11,26 +11,37 @@ I. Provides Welcome screen.
 
 II-A. Asks the user to type either 1 or 2 to get their Daily Taobite.
 II-B. It also tells user to type 'list' to list all acceptable commands. 
-II-C. Tells user to type 'list' get the acceptable commands:
+II-C. Tells user to type 'list' or 'l' to get a list of the acceptable commands. If user types 'l' it gives them the following list:
    -Type either 1, Daodejing, Tao Te Qing or  DDJ. To select the Daodejing
    -Type either 2, Zhuangzi, Chuang Tzu or ZZ. To select the Zhuangzi 
-   -Type 'random' or 'r' to have the computer pick for us.
+   -Type 'random' or 'r' to have the computer pick for you.
    -Type 'list' or 'l' to list again acceptable commands.
-   -Also tells the user type 'quit' or 'q' to quit the program.
+   -Type 'quit' or 'q' to quit the program.
 
-III-A. If 1, provides a complete random chapter from the DDJ
+III-A. If 1, provides a complete random chapter from the DDJ. Once the the chapter is provided it asks user if it wants to get another passage.
 
-III-B. If 2, provides randome passage from random chapter from ZZ.
+III-B. If 2, provides randome passage from random chapter from ZZ. Once the the chapter is provided it asks user if it wants to get another passage.
 
-III-C. If Q, quits program and clears console.
+III-C. If l, provides random passage from random book. Once the the chapter is provided it asks user if it wants to get another passage.
 
-III-D. If given wrong input, throws an Incorrect Command Error and lists the acceptable commands. 
+III-D. If Q, quits program and clears console.
+
+III-E. If given wrong input, throws an Incorrect Command Error and lists the acceptable commands. 
 
 
 3. 
 
 
 
+============================
+TRUCKAROUND CLI:
+
+Lists today's food trucks.
+
+Lists DMV Food trucks by scraping Food Truck Fiesta. Lets user select from state then narrow down to see lists of food trucks. 
+
+Some Classes:
+-Foodtrucks
 
 
 ========================
