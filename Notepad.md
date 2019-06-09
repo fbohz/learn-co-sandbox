@@ -1,5 +1,5 @@
 ============================
-Taobites:
+TAOBITES CLI:
 
 1. PLAN YOUR GEM
 
@@ -7,15 +7,15 @@ A CLI that gives random passages of text from the Daodejing and the Zhuangzi.
 
 2. BASIC STRUCTURE
 
-Provides Welcome screen.
+I. Provides Welcome screen.
 
-Asks the user to type either 1 || Daodejing || Tao Te Qing || DDJ. Or type 2 || Zhuangzi || Chuang Tzu || ZZ. Tells the use to quit just type Quit || Q
+II. Asks the user to type either 1 || Daodejing || Tao Te Qing || DDJ. Or type 2 || Zhuangzi || Chuang Tzu || ZZ. Tells the use to quit just type Quit || Q
 
-If 1, provides a random chapter from the DDJ
+III-A. If 1, provides a complete random chapter from the DDJ
 
-If 2, provides randome passage from random chapter from ZZ.
+III-B. If 2, provides randome passage from random chapter from ZZ.
 
-If Q, quits program and clears console.
+III-C. If Q, quits program and clears console.
 
 
 3. 
