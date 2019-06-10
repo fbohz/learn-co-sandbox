@@ -35,7 +35,22 @@ III-D. If Q, quits program and clears console.
 III-E. If given wrong input, throws an Incorrect Command Error and lists the acceptable commands. 
 
 
-3. 
+3. Define your classes
+
+A Taobite has:
+A piece of text generated randomly
+A reference to the piece of text generated (e.g. chapter x DDJ or chapter x ZZ)
+when DDJ:
+   -Generate text randomly after a number and stop when a reaches a number.
+    Use this URL has all numbers: https://terebess.hu/english/tao/mitchell.html#Kap81
+   -Get chapter from number started. 
+   -NOTE: If text included is after the word 'chip'. Puts "you got byten!" and then output passage (this because this URL includes tao te chip with computer references too)
+when ZZ: 
+ -Generate a random piece of text and stop where there is a newline.
+   Get a random number from 1-33 to then get the text from the section number generated. 
+   FYI sections add a #num E.g. https://terebess.hu/english/chuangtzu.html#23 - will give chapter 23 text.
+ -IF text retrieved is less than 165 characters generate the next paragraph after newline and stop in the next newline.
+ -Retrieve section number by looking up the #num URL where the text was taken.
 
 
 
