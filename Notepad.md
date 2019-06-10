@@ -5,6 +5,12 @@ TAOBITES CLI:
 
 Taobites is CLI gem that gives random passages of text from the Daodejing and the Zhuangzi. 
 
+3 Classes:
+-CLI
+-TaoBooks
+-Scrapper
+
+
 2. BASIC STRUCTURE
 
 I. Provides Welcome screen.
@@ -40,8 +46,10 @@ Lists today's food trucks.
 
 Lists DMV Food trucks by scraping Food Truck Fiesta. Lets user select from state then narrow down to see lists of food trucks. 
 
-Some Classes:
--Foodtrucks
+3 Classes:
+-CLI
+-Foodtruck
+-Scrapper
 
 
 ========================
