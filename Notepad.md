@@ -1,8 +1,5 @@
-
-
-
 ============================
-TRUCKAROUND CLI:
+CoinGecko CLI:
 
 Lists today's food trucks.
 
