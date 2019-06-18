@@ -70,6 +70,9 @@ https://api.coingecko.com/api/v3/simple/supported_vs_currencies
 # This symbol then can be used to display top 100. E.g.
 https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
 
+#GEN see market cap volume, market, cap etc and how it is layout. E.g bitcoin:
+https://www.coingecko.com/en/coins/bitcoin
+
 ====================================
 
 ##SCRAP_WORK
