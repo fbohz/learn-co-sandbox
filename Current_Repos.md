@@ -6,11 +6,13 @@ git clone https://github.com/fbohz/coingecko.git
 #DONE Projects
 git clone https://github.com/fbohz/taobites-cli.git 
 
-
+#REF Projects
+git clone https://github.com/cjbrock/worlds-best-restaurants-cli-gem.git
 ############SCRAP PLAY#################
 
 IRB play:
-
+#4REF Documentation: https://www.coingecko.com/api/documentations/v3
+#https://www.coingecko.com/api/documentations/v3/swagger.json
 ## e.g. open with bitcoin test.
 
 require 'open-uri'
