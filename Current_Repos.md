@@ -59,8 +59,9 @@ GEN:
 https://api.coingecko.com/api/v3/coins/list
 
 Coin:
-#needs to pass in coinname. Gives all attr_accessors. E.g. below with Bitcoin:
+#needs to pass in coin_id. Gives all attr_accessors. E.g. below with Bitcoin:
 https://api.coingecko.com/api/v3/coins/bitcoin?tickers=true&market_data=true&community_data=true&developer_data=true&sparkline=true
+## play with this outlier coins: 0xcert, 4hiphop, wrapped-bitcoin 
 
 Suppported vs Currencies
 #gives currency symbol 
