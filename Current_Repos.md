@@ -1,4 +1,4 @@
-
+#some notes i've been using
 #CLI Project FB
 git clone https://github.com/fbohz/coingecko.git
 
@@ -51,12 +51,30 @@ response = _
 
 json = JSON.parse(response)
 
-======
+====================================
 
+### EXAMPLE endpoints calls. 2Read
+GEN:
+#ALL supported gets id , symbol and name. This name can then be based into coin next method.
+https://api.coingecko.com/api/v3/coins/list
 
-##COIN ATTRIBUTES
+Coin:
+#needs to pass in coinname. Gives all attr_accessors. E.g. below with Bitcoin:
+https://api.coingecko.com/api/v3/coins/bitcoin?tickers=true&market_data=true&community_data=true&developer_data=true&sparkline=true
 
-A- https://api.coingecko.com/api/v3/coins
+Suppported vs Currencies
+#gives currency symbol 
+https://api.coingecko.com/api/v3/simple/supported_vs_currencies
+
+# This symbol then can be used to display top 100. E.g.
+https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
+
+====================================
+
+##SCRAP_WORK
+
+A- base: https://api.coingecko.com/api/v3/#end_point
+e.g https://api.coingecko.com/api/v3/coins/
 :name (same as :base), 
 [:id]
 [:symbol]
@@ -65,10 +83,9 @@ A- https://api.coingecko.com/api/v3/coins
 [:market_cap_rank]
 [:price_change_24h]
 [:price_change_percentage_24h]
-[:total_supply]
-[:circulating_supply]
+:total_supply, :circulating_supply
 
-B - https://api.coingecko.com/api/v3/coins/#coin_id/tickers
+B - https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd 
 #1 api hash:
 :base, :trading_pair, :market, :last_trade, :volume 
 
@@ -81,9 +98,13 @@ Get country keys from here:
 https://api.coingecko.com/api/v3/events/countries
 
 #end point example with markets per currency provided:
-https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd 
+https://api.coingecko.com/api/v3/coins/#coin_id/tickers
 https://api.coingecko.com/api/v3/coins/markets?vs_currency=currencyName
 
 4REF:
 https://api.coingecko.com/api/v3/events
 Events. #omit
+
+
+
+
