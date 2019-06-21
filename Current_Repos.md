@@ -1,10 +1,12 @@
 #some notes i've been using
-#CLI Project FB
-git clone https://github.com/fbohz/coingecko.git
+
+#In Progress Projects:
 
 
 #DONE Projects
+#CLI Project FB
 git clone https://github.com/fbohz/taobites-cli.git 
+git clone https://github.com/fbohz/coingecko.git
 
 #REF Projects
 git clone https://github.com/cjbrock/worlds-best-restaurants-cli-gem.git
