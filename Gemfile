@@ -3,4 +3,4 @@ source 'https://rubygems.org'
 
 gem "rspec"
 gem "pry"
-gem 'coingecko', '~> 0.1.3'
+gem 'coingecko', '~> 0.2.0'
