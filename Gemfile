@@ -5,3 +5,5 @@ gem "rspec"
 gem "pry"
 gem 'coingecko', '~> 0.2.0'
 gem 'terminal-table'
+gem 'sinatra'
+
