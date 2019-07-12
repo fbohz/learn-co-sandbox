@@ -1,11 +1,7 @@
-require 'sinatra'
-
-class App < Sinatra::Base
+class Application < Sinatra::Base
 
   get '/' do
-    "Hello, Pipe!"
+    "Hello, Pots!"
   end
 
 end
-
- #set :bind, '0.0.0.0'
