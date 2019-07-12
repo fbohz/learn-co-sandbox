@@ -8,4 +8,4 @@ class App < Sinatra::Base
 
 end
 
- set :bind, '0.0.0.0'
+ #set :bind, '0.0.0.0'
