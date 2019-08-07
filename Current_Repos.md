@@ -8,8 +8,8 @@ git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 
 #UpcomingLabsFYI
 [18 LABS]
-git clone https://github.com/learn-co-curriculum/sinatra-cookies-readme 
-git clone https://github.com/learn-co-curriculum/sinatra-sessions 
+
+
 git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab
 git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup 
 git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme 
@@ -26,3 +26,6 @@ git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associatio
 git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
 git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
 git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
+
+##UpcomingLabsDone
+git clone https://github.com/learn-co-curriculum/sinatra-sessions 
