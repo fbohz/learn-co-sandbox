@@ -7,8 +7,6 @@ git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 
 
 #UpcomingLabsFYI
-git clone https://github.com/learn-co-curriculum/sinatra-restful-routes-lab 
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-using-tux 
 git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations 
 git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
 git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
@@ -30,6 +28,10 @@ git clone https://github.com/learn-co-curriculum/sinatra-password-security
 git clone https://github.com/learn-co-curriculum/sinatra-secure-password-lab 
 Video - Sinatra Authentication https://www.youtube.com/watch?v=_S1s6R-_wYc
 git clone https://github.com/learn-co-curriculum/sinatra-restful-routes-readme 
+git clone https://github.com/learn-co-curriculum/sinatra-restful-routes-lab 
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-using-tux 
+
+
 
 #FYI_ONLY
 https://github.com/learn-co-curriculum/sinatra-fwitter-group-project/tree/solution
@@ -85,9 +87,13 @@ PRE-WORK
 4. Test simple iframe on the random youtube video generated.
     <iframe width="640" height="480" src="https://www.youtube.com/embed/#{video_id}">
     </iframe>
+    
+  <!--REF iframe: https://www.w3schools.com/html/html_youtube.asp-->
 5. Once this is achieved build the app.    
 6. 
 
 APP
 -Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
--Apply animation only at the END. Beginning just have a submit button and a field. Or maybe DON'T do animation and just mimic the "I'm Feeling Lucky" style of Google.
+-Through login build relationship User has_many videos, and videos belong_to User. 
+-DON'T do animation and just mimic the "I'm Feeling Lucky" style of Google. See Evernote for sample wireframe. 
+-Luck Charms on your canasta. Save Luck charm.
