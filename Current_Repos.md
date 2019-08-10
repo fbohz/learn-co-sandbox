@@ -7,14 +7,12 @@ git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 
 
 #UpcomingLabsFYI
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations 
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
-git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
-git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
+
 
 #UpcomingVIDEOS_FYI
 Video Building a SiteGenerator: 
 https://www.youtube.com/watch?v=wXq-Na6mZuk
+https://www.youtube.com/watch?v=4Nute1F5TZ4
 
 ##UpcomingLabsDone
 git clone https://github.com/learn-co-curriculum/sinatra-sessions 
@@ -30,8 +28,10 @@ Video - Sinatra Authentication https://www.youtube.com/watch?v=_S1s6R-_wYc
 git clone https://github.com/learn-co-curriculum/sinatra-restful-routes-readme 
 git clone https://github.com/learn-co-curriculum/sinatra-restful-routes-lab 
 git clone https://github.com/learn-co-curriculum/sinatra-activerecord-using-tux 
-
-
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations 
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
+git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
 
 #FYI_ONLY
 https://github.com/learn-co-curriculum/sinatra-fwitter-group-project/tree/solution
@@ -94,6 +94,9 @@ PRE-WORK
 
 APP
 -Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
+<<<<<<< HEAD
 -Through login build relationship User has_many videos, and videos belong_to User. 
+=======
+>>>>>>> 7ab886e4ecdbc9c23826131b097cc348f5baee2f
 -DON'T do animation and just mimic the "I'm Feeling Lucky" style of Google. See Evernote for sample wireframe. 
 -Luck Charms on your canasta. Save Luck charm.
