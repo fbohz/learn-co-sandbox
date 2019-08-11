@@ -1,13 +1,14 @@
 #some notes i've been using
 
 #In Progress Projects:
+#MY_PROJECT
+git clone https://github.com/fbohz/luckytube.git
 #SINATRA REF
 git clone https://github.com/learn-co-curriculum/sinatra-mvc-file-structure.git
 git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 
 
 #UpcomingLabsFYI
-
 
 #UpcomingVIDEOS_FYI
 Video Building a SiteGenerator: 
@@ -70,7 +71,7 @@ https://www.youtube.com/watch?v=6lgf30wFOlA
 
 #SINATRA_PROJ_REQ'D
 Names: 
-  Lucky YouTube
+  LuckyTube
 
 Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a the first result it actually throws a random video from the top 500 videos returned based upon a string search. The random pool is curated based upon rating to ensure you get Youtube lucky and enjoy a serendituos dose of Youtube fast.
   
