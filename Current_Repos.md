@@ -3,10 +3,15 @@
 #In Progress Projects:
 #MY_PROJECT
 git clone https://github.com/fbohz/luckytube.git
+
+#TEMPs_MY_PROJECT
+ruby lib/api.rb
+
 #SINATRA REF
 git clone https://github.com/learn-co-curriculum/sinatra-mvc-file-structure.git
 git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
-
+#helpers fyi
+https://github.com/fbohz/sinatra-logging-in-and-out/blob/solution/app/helpers/helpers.rb
 
 #UpcomingLabsFYI
 
@@ -40,14 +45,18 @@ https://github.com/learn-co-curriculum/sinatra-fwitter-group-project/tree/soluti
 #API_REF
 https://developers.google.com/youtube/v3/docs/search/list
 git clone https://github.com/fbohz/api_play.git
-
+https://console.developers.google.com/apis/api/youtube.googleapis.com/quotas
 #API CREDS 
 DailyShort_Youtube_API
-Login: https://console.developers.google.com
+Login: 
+https://console.developers.google.com
 fbohorqu@hotmail.com
 
 MyAPI = AIzaSyAU99zet9MIB13FjgPv06h0-qxkBh-6v3U
 PlayAPI = AIzaSyDF9vCvWrcC2ElT0ng-XEklj-gOWBSskT8
+
+FINAL PATH WORKS:
+https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=rating&q=corto&type=video&videoDuration=medium&key=AIzaSyBc3JI6EdjdXRsvSscRDnpaDPbEEJGs6uY&fields=nextPageToken,items(id,snippet(title,description))
 
 |WORKS + MaxResult (max is 50) / order=relevance option 2.|
 
@@ -101,3 +110,7 @@ APP
 >>>>>>> 7ab886e4ecdbc9c23826131b097cc348f5baee2f
 -DON'T do animation and just mimic the "I'm Feeling Lucky" style of Google. See Evernote for sample wireframe. 
 -Luck Charms on your canasta. Save Luck charm.
+
+-From initial response get nextpage and create an array up until nextpage is empty or array length equals 500.
+-When array is captured create a new file a method that has a class that calls the api and creates objects out of the hash received. Clear @all before starting. Shovel to @all at end.
+-within the same file create another method that pulls a random object from @all.
