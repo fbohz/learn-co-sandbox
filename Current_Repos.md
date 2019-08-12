@@ -104,3 +104,22 @@ APP
 
 
 ##REF SCRAP
+#VIEWS_REF
+https://getbootstrap.com/docs/4.3/examples/cover/
+https://getbootstrap.com/docs/4.3/examples/sign-in/
+
+<!--gem 'bootstrap', '~> 4.3.1'-->
+
+#KEEP
+https://github.com/fbohz/learn-co-sandbox
+
+#TEMPs
+
+git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup 
+git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme 
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations 
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
+git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
