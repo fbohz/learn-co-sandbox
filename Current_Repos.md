@@ -25,6 +25,8 @@ File.write('seeds.json', @results)
 Video - Sinatra Authentication https://www.youtube.com/watch?v=_S1s6R-_wYc
 
 #FYI_ONLY
+https://github.com/fbohz/sinatra-fwitter-group-project-online-web-pt-051319
+solution_fwitter:
 https://github.com/learn-co-curriculum/sinatra-fwitter-group-project/tree/solution
 
 #API_REF
