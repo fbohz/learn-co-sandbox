@@ -7,13 +7,15 @@ git clone https://github.com/fbohz/luckytube.git
 #TEMPs_MY_PROJECT
 ruby lib/api.rb
 For object creation:
-https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=rating&q=corto&type=video&videoDuration=medium&key=AIzaSyBc3JI6EdjdXRsvSscRDnpaDPbEEJGs6uY&fields=nextPageToken,items(id,snippet(title,description))
+https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=rating&q=corto&type=video&videoDuration=medium&key=AIzaSyBc3JI6EdjdXRsvSscRDnpaDPbEEJGs6uY&fields=nextPageToken,items(id(videoId),snippet(title,description))
 
 #SINATRA REF
 git clone https://github.com/learn-co-curriculum/sinatra-mvc-file-structure.git
 git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 #helpers fyi
 https://github.com/fbohz/sinatra-logging-in-and-out/blob/solution/app/helpers/helpers.rb
+File.write('seeds.json', @results)
+
 
 #UpcomingLabsFYI
 
@@ -116,3 +118,6 @@ APP
 -From initial response get nextpage and create an array up until nextpage is empty or array length equals 500.
 -When array is captured create a new file a method that has a class that calls the api and creates objects out of the hash received. Clear @all before starting. Shovel to @all at end.
 -within the same file create another method that pulls a random object from @all.
+
+
+##REF SCRAP
