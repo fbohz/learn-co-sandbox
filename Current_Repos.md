@@ -6,6 +6,8 @@ git clone https://github.com/fbohz/luckytube.git
 
 #TEMPs_MY_PROJECT
 ruby lib/api.rb
+For object creation:
+https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=rating&q=corto&type=video&videoDuration=medium&key=AIzaSyBc3JI6EdjdXRsvSscRDnpaDPbEEJGs6uY&fields=nextPageToken,items(id,snippet(title,description))
 
 #SINATRA REF
 git clone https://github.com/learn-co-curriculum/sinatra-mvc-file-structure.git
