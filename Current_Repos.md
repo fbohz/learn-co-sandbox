@@ -115,11 +115,11 @@ https://github.com/fbohz/learn-co-sandbox
 
 #TEMPs
 
-git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup 
-git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme 
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations 
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables 
-git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers 
-git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
-git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations 
+git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations    -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution    
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution
