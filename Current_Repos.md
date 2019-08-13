@@ -15,13 +15,8 @@ git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
 #helpers fyi
 https://github.com/fbohz/sinatra-logging-in-and-out/blob/solution/app/helpers/helpers.rb
 File.write('seeds.json', @results)
+rake db:migrate SINATRA_ENV=development
 
-
-#UpcomingLabsFYI
-
-#UpcomingVIDEOS_FYI
-
-##UpcomingLabsDone
 Video - Sinatra Authentication https://www.youtube.com/watch?v=_S1s6R-_wYc
 
 #FYI_ONLY
@@ -73,29 +68,10 @@ Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a t
   
 NOTE: 
 
-PRE-WORK
-
-1. Get data from API and turn it into an object all shorts per data given  (max 500 or 10 Youtube api response pages).
-    a. First key has gen info 
-    b. Need to access nextPageToken and puts as pageToken on url (from first key) attribute to go to next page. This will be the first instantiation. Probably another method/object that gets all the next 10 pages nextPageToken
-    c. :items key has an array of all videos returned this is what needs to be passed to videos array.
-2. Once all shorts are parsed into an object. Generate a random method that will return one of those objects.3. 
-3. Test by accessing the [:snippet][:title], [:snippet][:description] to get gen info,  and [:id][:videoId] to get URL of video.
-4. Test simple iframe on the random youtube video generated.
-    <iframe width="640" height="480" src="https://www.youtube.com/embed/#{video_id}">
-    </iframe>
-    
-  <!--REF iframe: https://www.w3schools.com/html/html_youtube.asp-->
-5. Once this is achieved build the app.    
-6. 
-
 APP
 -Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
-<<<<<<< HEAD
+
 -Through login build relationship User has_many videos, and videos belong_to User. 
-=======
->>>>>>> 7ab886e4ecdbc9c23826131b097cc348f5baee2f
--DON'T do animation and just mimic the "I'm Feeling Lucky" style of Google. See Evernote for sample wireframe. 
 -Luck Charms on your canasta. Save Luck charm.
 
 -From initial response get nextpage and create an array up until nextpage is empty or array length equals 500.
@@ -123,3 +99,10 @@ git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associatio
 git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers -b solution
 git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution    
 git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution
+
+
+#UpcomingLabsFYI
+
+#UpcomingVIDEOS_FYI
+
+##UpcomingLabsDone
