@@ -4,6 +4,33 @@
 #MY_PROJECT
 git clone https://github.com/fbohz/luckytube.git
 
+#SINATRA_PROJ_REQ'D
+Names: 
+  LuckyTube
+
+Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a the first result it actually throws a random video from the top 500 videos returned based upon a string search. The random pool is curated based upon rating to ensure you get Youtube lucky and enjoy a serendituos dose of Youtube fast.
+  
+NOTE: 
+
+APP
+-Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
+
+-Luck Charms on your canasta. Save Luck charm.
+
+#Sinatra_TO-DO:
+- Can add videos to user when video returned.
+- Once added show list of vids that belong to user
+- Edit option where user can select videos in their canasta and delete them.
+- If user has no videos have link that says to make a query to add videos.
+- Option for user to edit their account.
+- - user can change their name, email, password
+- - - checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
+- Polish views so that it looks presentable.
+- **Review** proj req and curriculum notes to ensure meeting basics 
+- Heroku deploy
+- Do 3-5 min video walkthrough.
+- Do blog post 
+
 #TEMPs_MY_PROJECT
 ruby lib/api.rb
 For object creation:
@@ -30,32 +57,7 @@ git clone https://github.com/fbohz/api_play.git
 https://console.developers.google.com/apis/api/youtube.googleapis.com/quotas
 
 
-#SINATRA_PROJ_REQ'D
-Names: 
-  LuckyTube
 
-Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a the first result it actually throws a random video from the top 500 videos returned based upon a string search. The random pool is curated based upon rating to ensure you get Youtube lucky and enjoy a serendituos dose of Youtube fast.
-  
-NOTE: 
-
-APP
--Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
-
--Luck Charms on your canasta. Save Luck charm.
-
-TO-DO:
-- Can add videos to user when video returned.
-- Once added show list of vids that belong to user
-- Edit option where user can select videos in their canasta and delete them.
-- If user has no videos have link that says to make a query to add videos.
-- Option for user to edit their account.
-- - user can change their name, email, password
-- - - checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
-- Polish views so that it looks presentable.
-- **Review** proj req and curriculum notes to ensure meeting basics 
-- Heroku deploy
-- Do 3-5 min video walkthrough.
-- Do blog post 
 
 ##REF SCRAP
 #VIEWS_REF
