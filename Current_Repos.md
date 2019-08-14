@@ -28,6 +28,56 @@ https://github.com/learn-co-curriculum/sinatra-fwitter-group-project/tree/soluti
 https://developers.google.com/youtube/v3/docs/search/list
 git clone https://github.com/fbohz/api_play.git
 https://console.developers.google.com/apis/api/youtube.googleapis.com/quotas
+
+
+#SINATRA_PROJ_REQ'D
+Names: 
+  LuckyTube
+
+Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a the first result it actually throws a random video from the top 500 videos returned based upon a string search. The random pool is curated based upon rating to ensure you get Youtube lucky and enjoy a serendituos dose of Youtube fast.
+  
+NOTE: 
+
+APP
+-Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
+
+-Luck Charms on your canasta. Save Luck charm.
+
+TO-DO:
+- Can add videos to user when video returned.
+- Once added show list of vids that belong to user
+- Edit option where user can select videos in their canasta and delete them.
+- If user has no videos have link that says to make a query to add videos.
+- Option for user to edit their account.
+- - user can change their name, email, password
+- - - checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
+- Polish views so that it looks presentable.
+- **Review** proj req and curriculum notes to ensure meeting basics 
+- Heroku deploy
+- Do 3-5 min video walkthrough.
+- Do blog post 
+
+##REF SCRAP
+#VIEWS_REF
+https://getbootstrap.com/docs/4.3/examples/cover/
+https://getbootstrap.com/docs/4.3/examples/sign-in/
+
+<!--gem 'bootstrap', '~> 4.3.1'-->
+
+#KEEP
+https://github.com/fbohz/learn-co-sandbox
+
+#TEMPs
+
+git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations    -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers -b solution
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution    
+git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution
+
 #API CREDS 
 DailyShort_Youtube_API
 Login: 
@@ -59,47 +109,6 @@ https://www.youtube.com/watch?v=
 
 Example:
 https://www.youtube.com/watch?v=6lgf30wFOlA
-
-#SINATRA_PROJ_REQ'D
-Names: 
-  LuckyTube
-
-Layout mimics the "I'm Feeling Lucky" on Google Search but instead of giving a the first result it actually throws a random video from the top 500 videos returned based upon a string search. The random pool is curated based upon rating to ensure you get Youtube lucky and enjoy a serendituos dose of Youtube fast.
-  
-NOTE: 
-
-APP
--Make sure CRUD is done on user. E.g. user can edit their account by editing their password or email address, they can also delete their account. They can also read their account e.g. email address and videos.
-
--Through login build relationship User has_many videos, and videos belong_to User. 
--Luck Charms on your canasta. Save Luck charm.
-
--From initial response get nextpage and create an array up until nextpage is empty or array length equals 500.
--When array is captured create a new file a method that has a class that calls the api and creates objects out of the hash received. Clear @all before starting. Shovel to @all at end.
--within the same file create another method that pulls a random object from @all.
-
-
-##REF SCRAP
-#VIEWS_REF
-https://getbootstrap.com/docs/4.3/examples/cover/
-https://getbootstrap.com/docs/4.3/examples/sign-in/
-
-<!--gem 'bootstrap', '~> 4.3.1'-->
-
-#KEEP
-https://github.com/fbohz/learn-co-sandbox
-
-#TEMPs
-
-git clone https://github.com/learn-co-curriculum/sinatra-basic-sessions-lab -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-setup -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-mechanics-of-sessions-readme -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations    -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-activerecord-associations-join-tables -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-multiple-controllers -b solution
-git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution    
-git clone https://github.com/learn-co-curriculum/sinatra-complex-forms-associations -b solution
-
 
 #UpcomingLabsFYI
 
