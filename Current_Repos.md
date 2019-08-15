@@ -21,7 +21,7 @@ APP
 [x] Can add videos to user when video returned. Logic when user not logged in.
 [x] Show list of vids that belong to user
 [x] If user has no videos have link that says to make a query to add videos.
-- Edit option where user can select videos in their canasta and delete them.
+- Edit option where user can select videos in their LuckyChest and delete them.
 - Option for user to edit their account.
 - - user can change their name, email, password
 - - - checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
