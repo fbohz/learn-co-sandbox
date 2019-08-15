@@ -35,7 +35,7 @@ APP
 ruby lib/api.rb
 For object creation:
 https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&order=rating&q=corto&type=video&videoDuration=medium&key=AIzaSyBc3JI6EdjdXRsvSscRDnpaDPbEEJGs6uY&fields=nextPageToken,items(id(videoId),snippet(title,description))
-
+Request current path use: request.path_info 
 #SINATRA REF
 git clone https://github.com/learn-co-curriculum/sinatra-mvc-file-structure.git
 git clone https://github.com/learn-co-curriculum/example-sinatra-assessment.git
