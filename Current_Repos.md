@@ -26,6 +26,7 @@ APP
 [x] checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
 [x] Polish views so that it looks presentable.
 [x] **Review** proj req and curriculum notes to ensure meeting basics 
+[] Generate session secret, save in local. Follow instructions to it in notes.
 [] Heroku deploy
 [] Do 3-5 min video walkthrough.
 [] Do blog post 
