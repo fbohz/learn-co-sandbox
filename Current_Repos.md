@@ -25,10 +25,10 @@ APP
 [x] Option for user to edit their account. User can change their name, email, password
 [x] checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
 [x] Polish views so that it looks presentable.
-- **Review** proj req and curriculum notes to ensure meeting basics 
-- Heroku deploy
-- Do 3-5 min video walkthrough.
-- Do blog post 
+[] **Review** proj req and curriculum notes to ensure meeting basics 
+[] Heroku deploy
+[] Do 3-5 min video walkthrough.
+[] Do blog post 
 
 #TEMPs_MY_PROJECT
 ruby lib/api.rb
