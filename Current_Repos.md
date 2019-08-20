@@ -4,6 +4,10 @@
 #MY_PROJECT
 git clone https://github.com/fbohz/luckytube.git
 
+#BLOG_TEMP
+gem install corneal
+corneal new temp
+
 #SINATRA_PROJ_REQ'D
 Names: 
   LuckyTube
@@ -21,6 +25,7 @@ APP
 [x] Can add videos to user when video returned. Logic when user not logged in.
 [x] Show list of vids that belong to user
 [x] If user has no videos have link that says to make a query to add videos.
+<<<<<<< HEAD
 [x] Edit option where user can select videos in their LuckyChest and delete them.
 [x] Option for user to edit their account. User can change their name, email, password
 [x] checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
@@ -30,6 +35,16 @@ APP
 [] Heroku deploy
 [] Do 3-5 min video walkthrough.
 [] Do blog post 
+=======
+- Edit option where user can select videos in their LuckyChest and delete them.
+[x] Option for user to edit their account. User can change their name, email, password
+[x] checks for email if it doesn't exist on db, if change psw user must give current password then new. Checks curr psw and then changes to new.
+- Polish views so that it looks presentable.
+- **Review** proj req and curriculum notes to ensure meeting basics 
+- Heroku deploy
+- Do 3-5 min video walkthrough.
+- Do blog post 
+>>>>>>> 1a858c87b2187151e89f73c45d54db82fdff0eff
 
 #TEMPs_MY_PROJECT
 ruby lib/api.rb
